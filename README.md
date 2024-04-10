@@ -1,0 +1,2 @@
+# EasyCures
+Online Medical store
