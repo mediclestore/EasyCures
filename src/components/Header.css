@@ -1,24 +1,111 @@
-.home{
-    background-color: #e3e6e6;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .home_img {
-    width: 100%;
-    z-index: -1;
-    margin-bottom: -150px;
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  }
-  
-  
-  .home_row{
-    z-index: 1;
-    display: flex;
-    flex-flow: row;
-  
-    width: auto;
-  }
-  
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header__options   > a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+.header__options_list{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 5rem;
+  width: 5rem;
+  margin:  10px;
+  margin-top: 1rem;
+  padding: 1px 0.5rem 0px 0.4rem;
+  object-fit: contain;
+  align-items: center;
+}
+
+.header_search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin: 2px;
+}
+
+.header_searchInput {
+  height: 0.8rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: black;
+
+}
+.header_searchIcon {
+  height: 0.8rem !important;
+  padding: 0.4;
+  background-color: lightgray;
+  border: 1px solid black;
+  display: flex;
+  padding: 0.5rem;
+  width: 1rem;
+}
+
+.header_search_nav {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+
+
+.option_lineOne {
+  font-size: 0.7rem;
+}
+.option_lineTwo {
+  font-size: 0.9;
+  font-weight: 700;
+}
+.header_optionBasket {
+  display: flex;
+  align-items: center;
+  margin: 0.7rem;
+}
+
+.header_optionBasket > a {
+  text-decoration: none;
+  color: rgb(10, 3, 3);
+  display: flex;
+  align-items: center;
+  margin: 0.7rem;
+}
+.header_optionBasket_count {
+  margin: 0.7rem;
+}
+.header_cart{
+  display: flex;
+  flex-direction: row;
+}
+.header_search_nav{
+  width: 450px;
+  object-fit: contain;
+}
+.header__options {
+  text-decoration: none;
+ 
+  object-fit: contain;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  position: static;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+

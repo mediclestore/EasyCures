@@ -1,0 +1,39 @@
+.header_search{
+    display: flex;
+    width: 50%;
+    margin: 1rem;
+}
+
+.products_list > a {
+    text-decoration: none;
+    
+}
+.products_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*Search Btn*/
+.search__container {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    height: 25px;
+  }
+  .searchBox {
+    width: 50%;
+    border-radius: 10px;
+    padding: 8px;
+    border: 0.5px solid #B799FF;
+    background-color: white;
+  }
+  .searchBox:hover,
+  .searchBox:active {
+    border:0.5px solid #7bdfd7;;
+  }
+
+  
