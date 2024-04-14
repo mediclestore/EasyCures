@@ -37,6 +37,7 @@ function ValueCart() {
           value={searchText}
           onKeyPress={handleKeyPress}
           onChange={(e) => {
+            console.log(e);
             setSearchText(e.target.value);
           }}
         ></input>

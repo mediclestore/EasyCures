@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-container">
         <p>EasyCure. All rights reserved.</p>
         <nav>
-          <a href="/about">About Us</a>
+          <a href="/about">About Us </a>
           <a href="/contact">Contact</a>
           <a href="/terms">Terms & Conditions</a>
         </nav>

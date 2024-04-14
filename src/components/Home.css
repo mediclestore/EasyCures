@@ -1,41 +1,44 @@
-.home{
+.home {
   background-color: #e3e6e6;
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+  
+}
+
+@media (max-width: 768px) {
+  /* Styles for mobile devices */
+  .home__slogan {
+    background-color: red;
+  }
 }
 
 .home_img {
   width: 100%;
   z-index: -1;
-  /* margin-bottom: -150px;
-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+
 }
 
-.home__slogan{
+.home__slogan {
   display: flex;
   flex-flow: column;
   position: absolute;
   align-items: center;
   margin: 10px;
-  top:50% ;
+  top: 50%;
   left: 10%;
   width: 400px;
-
-
-
-
 }
-.home__slogan > p{
+.home__slogan > p {
   margin: 10px;
 }
-.home__slogan > button{
+.home__slogan > button {
   margin: 25px !important;
   width: 100px;
   height: 25px;
 }
-.home_row{
+.home_row {
   z-index: 1;
   display: flex;
   flex-flow: row;
